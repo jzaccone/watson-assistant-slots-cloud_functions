@@ -6,7 +6,7 @@
 
 This is a continuation of the lab exercise [Building a Watson Assistant chatbot from scratch](https://github.com/djccarew/watson-assistant-from-scratch-lab) that introduces two new important features of Watson Assistant.
 
-1. **Slots** - The slots feature allows you to collect multiple pieces of information in a single Dialog node allowing users to provide  some or all of the required information when interacting with your bot. By changing the DinnerBot chatbot to use slots only when dialog node is needed and the bot is much more flexible. For example if a user enters `Book a table` as before they will be prompted  in sequence for all  the information needed. However if a user enters `Book a table for Chinese food next Friday at 8pm` the bot will only ask for the number of people dining before confirming the reservation.
+1. **Slots** - The slots feature allows you to collect multiple pieces of information in a single Dialog node allowing users to provide  some or all of the required information when interacting with your bot. By changing the DinnerBot chatbot to use slots only one  dialog node is needed and the bot is much more flexible. For example if a user enters `Book a table` as before they will be prompted  in sequence for all  the information needed. However if a user enters `Book a table for Chinese food next Friday at 8pm` the bot will only ask for the number of people dining before confirming the reservation.
 
 2. **IBM Cloud Function integration** - This allows you to define calls to IBM Cloud Functions in Dialog nodes directly so these calls can be made automatically  as opposed to you  having to make those calls yourself in the application that is driving your chatbot. You can test all the  defined  external  calls from the Watson Assistant tooling without having to write any additional code
 
@@ -80,7 +80,7 @@ The Watson Assistant tooling offers a testing panel to test phrases to confirm t
 
 4. Click on the **Clear** link to start over with the test tool.  Type `Book a table chinese friday 8pm` when prompted.
 
-5. Verify that you're only prompted for the number of people dining before getting a conformation message.
+5. Verify that you're only prompted for the number of people dining before getting a confirmation message.
 
 6. Click on the **Clear** link to start over with the test tool.  Type `Book a table for 4 mexican  friday 8pm` when prompted.
 
@@ -146,7 +146,7 @@ In this step you'll modify your dialog node that uses slots to call your cloud f
 
  ![book reservation child nodes](images/ss23.png)
 
- 3. Select the **Book Reservation**. Change the text in the section **Then respond with:*** to `Confirming your reservation ...`
+ 3. Select the **Book Reservation**. Change the text in the section **Then respond with:** to `Confirming your reservation ...`
 
  4. In the **And finally** section select **Jump to ...**  and then select the **Confirmation** node. Select the option **If assistant recognizes (condition)**
 
