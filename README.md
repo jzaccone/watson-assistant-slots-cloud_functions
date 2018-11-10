@@ -23,7 +23,7 @@ To save time you'll import a skill  as a starting point that has all the DinnerB
 
 ![skill import 1](images/ss3.png)
 
-3. Click on **Import skill** ], click **Choose JSON file** , select the file ***dinnerbot-slots-begin.json*** and then click **Import**
+3. Click on **Import skill**, click **Choose JSON file**, select the file ***dinnerbot-slots-begin.json*** and then click **Import**
 
 ![Workspace import](images/ss4.png)
 
