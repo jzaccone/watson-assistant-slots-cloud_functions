@@ -13,21 +13,23 @@ This is a continuation of the lab exercise [Building a Watson Assistant chatbot 
 
 ## Part 1 Building DinnerBot using the slots feature
 
-### Step 1: Import the starting Workspace
+### Step 1: Import the starting skill
 
-To save time you'll import a Workspace as a starting point that has all the DinnerBot intents and entities  already defined.
+To save time you'll import a skill  as a starting point that has all the DinnerBot intents and entities  already defined.
 
-1. Download the saved workspace file [dinnerbot-slots-begin.json](workspaces/dinnerbot-slots-begin.json) to your local filesystem.
+1. Download the saved Skills file [dinnerbot-slots-begin.json](workspaces/dinnerbot-slots-begin.json) to your local filesystem.
 
-2. From the Watson Assistant tooling import the file you just downloaded by clicking on the import icon
+2. From the Watson Assistant tooling click on the **Skills** tab and click on **Create new**
 
-![Workspace import](images/ss1.png)
+![skill import 1](images/ss3.png)
 
-3. Click **Choose a file** and then select the file ***dinnerbot-slots-begin.json*** and click **Import**
+3.
 
-![Workspace import](images/ss2.png)
+3. Click on **Import skill** ], click **Choose JSON file** , select the file ***dinnerbot-slots-begin.json*** and then click **Import**
 
-4. The imported workpace will open up in the tool. Click on the  **Dialog** tab to start working on it
+![Workspace import](images/ss4.png)
+
+4. The imported skill will open up in the tool. Click on the  **Dialog** tab to start working on it
 
 
 ### Step 2: Add the slots node
