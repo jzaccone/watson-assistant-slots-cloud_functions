@@ -181,6 +181,8 @@ You would copy this:
 
 `/johndoe_dev/default/confirmBooking.json`
 
+> Note: Replace any "URL-safe" characters with the actual characters. For example, if your URL contains `%40`, replace with `@`.
+
 8. Back in the Watson Assistant tool replace the value of the **name** attribute with the contents of the  clipboard. The added JSON should now look something like this:
 
 ```
