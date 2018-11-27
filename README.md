@@ -15,6 +15,8 @@ This is a continuation of the lab exercise [Building a Watson Assistant chatbot 
 
 ### Step 1: Import the starting skill
 
+If not open already, navigate to the [Bluemix Console](https://console.bluemix.net/) and launch your IBM Watson Assistant service.
+
 To save time you'll import a skill  as a starting point that has all the DinnerBot intents and entities  already defined.
 
 1. Download the saved Skills file [dinnerbot-slots-begin.json](workspaces/dinnerbot-slots-begin.json) to your local filesystem. (Click "Raw" from the link above to get the raw format to save locally)
