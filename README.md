@@ -57,9 +57,9 @@ Click **Save**
 
 | Check for        | Save it as   | If not present ask                    | Not found                       |
 |------------------|--------------|---------------------------------------|---------------------------------|
-| @sys-date        | $date        | `What day would you like to reserve ?`  | `Please enter a valid date`       |
-| @sys-time        | $time        | `What time would you like to reserve ?` | `Please enter a valid time`       |
-| @sys-number      | $number      | `How many people will be dining?`      | `Please enter a valid party size` |
+| @sys-date        | $date        | What day would you like to reserve ?  | Please enter a valid date       |
+| @sys-time        | $time        | What time would you like to reserve ? | Please enter a valid time       |
+| @sys-number      | $number      | How many people will be dining?      | Please enter a valid party size |
 
 
 ![remaining slots](images/ss16.png)
@@ -141,8 +141,8 @@ In this step you'll modify your dialog node that uses slots to call your cloud f
 
  |  Node name   | If assistant recognizes | Then respond with          |
  |--------------|----------------------------------------------------|----------------------------|
- | Confirmation | `$confirmation.cloud_functions_call_error == null` | `<? $confirmation.body.message ?>`|
- | Cloud Function Error | anything_else | `IBM Cloud Function error:  <? $confirmation.cloud_functions_call_error ?>` |
+ | Confirmation | $confirmation.cloud_functions_call_error == null | \<? $confirmation.body.message ?>|
+ | Cloud Function Error | anything_else | IBM Cloud Function error:  \<? $confirmation.cloud_functions_call_error ?> |
 
  ![book reservation child nodes](images/ss23.png)
 
