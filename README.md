@@ -17,7 +17,7 @@ This is a continuation of the lab exercise [Building a Watson Assistant chatbot 
 
 To save time you'll import a skill  as a starting point that has all the DinnerBot intents and entities  already defined.
 
-1. Download the saved Skills file [dinnerbot-slots-begin.json](workspaces/dinnerbot-slots-begin.json) to your local filesystem.
+1. Download the saved Skills file [dinnerbot-slots-begin.json](workspaces/dinnerbot-slots-begin.json) to your local filesystem. (Click "Raw" from the link above to get the raw format to save locally)
 
 2. From the Watson Assistant tooling click on the **Skills** tab and click on **Create new**
 
