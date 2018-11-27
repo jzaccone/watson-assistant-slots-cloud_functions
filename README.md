@@ -57,8 +57,8 @@ Click **Save**
 
 | Check for        | Save it as   | If not present ask                    | Not found                       |
 |------------------|--------------|---------------------------------------|---------------------------------|
-| @sys-date        | $date        | `What day would you like to reserve ?`  | Please enter a valid date       |
-| @sys-time        | $time        | `What time would you like to reserve ?` | Please enter a valid time       |
+| @sys-date        | $date        | `What day would you like to reserve ?`  | `Please enter a valid date`       |
+| @sys-time        | $time        | `What time would you like to reserve ?` | `Please enter a valid time`       |
 | @sys-number      | $number      | `How many people will be dining?`      | `Please enter a valid party size` |
 
 
