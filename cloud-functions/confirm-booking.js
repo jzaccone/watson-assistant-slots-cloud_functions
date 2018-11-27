@@ -57,7 +57,7 @@ function restaurantName(cuisine) {
 // Returns formatted confirmation message
 function formatResponse(params) {
     var formattedName = restaurantName(params.cuisine);
-    var formattedTimestamp = formatTimestamp(params.date + 'T' + params.time + '.000';
+    var formattedTimestamp = formatTimestamp(params.date + 'T' + params.time + '.000');
     
     return "Confirmed. I've booked a table for " + params.number + " people on " + formattedTimestamp + " at " + formattedName;
 }
